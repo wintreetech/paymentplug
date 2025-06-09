@@ -14,6 +14,7 @@ import FooterFour from "../layout/footer/footer-four";
 import BlockFeatureSeven from "../components/block-feature/block-feature-seven";
 import FaqSectionTwo from "../components/faq/faq-section-two";
 import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
+import BlockFeatureFifteen from "../components/block-feature/block-feature-fifteen";
 
 export default function HomePageFour() {
 	return (
@@ -62,6 +63,10 @@ export default function HomePageFour() {
 					{/* text feature nine start */}
 					<TextFeatureNine />
 					{/* text feature nine end */}
+
+					{/* block feature start */}
+					<BlockFeatureFifteen />
+					{/* block feature end */}
 
 					{/* feedback four start */}
 					<FeedbackFour />
