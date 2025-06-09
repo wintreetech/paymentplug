@@ -12,6 +12,8 @@ import HomeFourBlogs from "../components/blogs/home-4-blogs";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
 import BlockFeatureSeven from "../components/block-feature/block-feature-seven";
+import FaqSectionTwo from "../components/faq/faq-section-two";
+import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
 
 export default function HomePageFour() {
 	return (
@@ -44,6 +46,14 @@ export default function HomePageFour() {
 					{/* text feature seven start */}
 					<TextFeatureSeven />
 					{/* text feature seven end */}
+
+					{/* project faq area start */}
+					<FaqSectionTwo />
+					{/* project faq area end */}
+
+					{/* fancy banner start */}
+					<FancyBannerSeven />
+					{/* fancy banner end */}
 
 					{/* text feature eight start */}
 					<TextFeatureEight />
