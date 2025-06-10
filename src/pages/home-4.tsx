@@ -20,7 +20,7 @@ export default function HomePageFour() {
 	return (
 		<Wrapper>
 			{/* seo title */}
-			<SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More" />
+			<SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More." />
 			{/* seo title */}
 
 			<div className="main-page-wrapper">
