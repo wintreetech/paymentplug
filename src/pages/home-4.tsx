@@ -78,7 +78,7 @@ export default function HomePageFour() {
 				</main>
 
 				{/* footer area start */}
-				<div className="footer-large-wrapper position-relative">
+				<div className="footer-la	rge-wrapper position-relative">
 					{/* newsletter area start */}
 					<NewsletterBannerTwo />
 					{/* newsletter area end */}
