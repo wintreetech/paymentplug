@@ -15,6 +15,9 @@ import BlockFeatureSeven from "../components/block-feature/block-feature-seven";
 import FaqSectionTwo from "../components/faq/faq-section-two";
 import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
 import BlockFeatureFifteen from "../components/block-feature/block-feature-fifteen";
+import FaqSectionOne from "../components/faq/faq-section-one";
+import HomeTwoBlogs from "../components/blogs/home-2-blogs";
+import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
 
 export default function HomePageFour() {
 	return (
@@ -73,12 +76,24 @@ export default function HomePageFour() {
 					{/* feedback four end */}
 
 					{/* blog item start */}
+					<HomeTwoBlogs />
+					{/* blog item end */}
+
+					{/* faq section start */}
+					<FaqSectionOne />
+					{/* faq section end */}
+
+					{/* fancy banner two start */}
+					<FancyBannerTwo />
+					{/* fancy banner two end */}
+
+					{/* blog item start */}
 					<HomeFourBlogs />
 					{/* blog item end */}
 				</main>
 
 				{/* footer area start */}
-				<div className="footer-la	rge-wrapper position-relative">
+				<div className="footer-large-wrapper position-relative">
 					{/* newsletter area start */}
 					<NewsletterBannerTwo />
 					{/* newsletter area end */}
