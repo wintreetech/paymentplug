@@ -35,7 +35,7 @@ const menu_data: IMenu[] = [
 	},
 	{
 		id: 5,
-		link: "/docs",
+		link: "https://docs.paymentplug.com/",
 		title: "Docs",
 	},
 ];

@@ -12,12 +12,18 @@ import HomeFourBlogs from "../components/blogs/home-4-blogs";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
 import BlockFeatureSeven from "../components/block-feature/block-feature-seven";
+import FaqSectionTwo from "../components/faq/faq-section-two";
+import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
+import BlockFeatureFifteen from "../components/block-feature/block-feature-fifteen";
+import FaqSectionOne from "../components/faq/faq-section-one";
+import HomeTwoBlogs from "../components/blogs/home-2-blogs";
+import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
 
 export default function HomePageFour() {
   return (
     <Wrapper>
       {/* seo title */}
-      <SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More" />
+      <SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More." />
       {/* seo title */}
 
       <div className="main-page-wrapper">
@@ -45,6 +51,14 @@ export default function HomePageFour() {
           <TextFeatureSeven />
           {/* text feature seven end */}
 
+          {/* project faq area start */}
+          <FaqSectionTwo />
+          {/* project faq area end */}
+
+          {/* fancy banner start */}
+          <FancyBannerSeven />
+          {/* fancy banner end */}
+
           {/* text feature eight start */}
           <TextFeatureEight />
           {/* text feature eight end */}
@@ -53,9 +67,25 @@ export default function HomePageFour() {
           <TextFeatureNine />
           {/* text feature nine end */}
 
+          {/* block feature start */}
+          <BlockFeatureFifteen />
+          {/* block feature end */}
+
           {/* feedback four start */}
           <FeedbackFour />
           {/* feedback four end */}
+
+          {/* blog item start */}
+          <HomeTwoBlogs />
+          {/* blog item end */}
+
+          {/* faq section start */}
+          <FaqSectionOne />
+          {/* faq section end */}
+
+          {/* fancy banner two start */}
+          <FancyBannerTwo />
+          {/* fancy banner two end */}
 
           {/* blog item start */}
           <HomeFourBlogs />

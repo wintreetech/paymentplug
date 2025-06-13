@@ -7,7 +7,7 @@ const HeroBannerFour = () => {
 				<div className="row">
 					<div className="col-xxl-9 col-md-8">
 						<h1 className="hero-heading text-white position-relative wow fadeInUp">
-							Seamless <span>Payment Orchestration</span>{" "}
+							Payment Orchestration <span>platform built for all</span>
 						</h1>
 						<div className="row">
 							<div className="col-xl-8 col-lg-9">
