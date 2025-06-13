@@ -7,11 +7,11 @@ import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import NewsletterBanner from "../components/newsletter/newsletter-banner";
 import FooterThree from "../layout/footer/footer-three";
 
-export default function ServiceDetailsPage() {
+export default function RiskTracker() {
   return (
     <Wrapper>
       {/* seo title */}
-      <SEOCom title="Service Details" />
+      <SEOCom title="Risk Tracker" />
       {/* seo title */}
 
       <div className="main-page-wrapper">
@@ -21,10 +21,10 @@ export default function ServiceDetailsPage() {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Single Service Details"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Services"
-            shape="/assets/images/shape/shape_27.svg"
+            title="Risk Tracker"
+            subtitle="Platform provides state of the art, white label payment gateway solution."
+            page="Risk Tracker"
+            shape="/assets/images/shape/shape-risk-tracker.svg"
             bg_img="/assets/images/media/img_32.jpg"
             style_2={true}
             cls="me-xl-4"

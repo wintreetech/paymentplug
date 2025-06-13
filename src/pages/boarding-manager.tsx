@@ -2,16 +2,16 @@ import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
-import ServiceDetailsArea from "../components/services/service-details-area";
 import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import NewsletterBanner from "../components/newsletter/newsletter-banner";
 import FooterThree from "../layout/footer/footer-three";
+import BoardingServiceDetails from "../components/services/boarding-service-details";
 
-export default function ServiceDetailsPage() {
+export default function BoardingManger() {
   return (
     <Wrapper>
       {/* seo title */}
-      <SEOCom title="Service Details" />
+      <SEOCom title="Wallet" />
       {/* seo title */}
 
       <div className="main-page-wrapper">
@@ -21,10 +21,10 @@ export default function ServiceDetailsPage() {
         <main>
           {/* breadcrumb start */}
           <BreadcrumbOne
-            title="Single Service Details"
-            subtitle="Offering solutions & services to address a spectrum of financial issues"
-            page="Services"
-            shape="/assets/images/shape/shape_27.svg"
+            title="Boarding Manager"
+            subtitle="Boarding Manager simplifies merchant onboarding"
+            page="Boarding Manager"
+            shape="/assets/images/shape/shape-boarding-manager.svg"
             bg_img="/assets/images/media/img_32.jpg"
             style_2={true}
             cls="me-xl-4"
@@ -32,7 +32,7 @@ export default function ServiceDetailsPage() {
           {/* breadcrumb end */}
 
           {/* service details area start */}
-          <ServiceDetailsArea />
+          <BoardingServiceDetails />
           {/* service details area end */}
 
           {/* fancy banner three start */}

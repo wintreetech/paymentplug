@@ -10,14 +10,13 @@ import FooterThree from "../layout/footer/footer-three";
 export default function ServiceV1Page() {
   return (
     <Wrapper>
-
       {/* seo title */}
       <SEOCom title="Service v1" />
       {/* seo title */}
- 
+
       <div className="main-page-wrapper">
         {/* header start */}
-        <HeaderTwo/>
+        <HeaderTwo />
         {/* header end */}
         <main>
           {/* breadcrumb start */}
@@ -41,7 +40,7 @@ export default function ServiceV1Page() {
           {/* fancy banner three end */}
 
           {/* news letter start */}
-          <NewsletterBanner/>
+          <NewsletterBanner />
           {/* news letter end */}
         </main>
 
@@ -49,7 +48,6 @@ export default function ServiceV1Page() {
         <FooterThree style_2={true} />
         {/* footer end */}
       </div>
-     
     </Wrapper>
   );
 }

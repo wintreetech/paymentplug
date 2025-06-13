@@ -1,22 +1,37 @@
 // Font Family
-$main-font: 'Satoshi';
-$sub-font: 'ClashDisplay';
-$magnita: 'Magnita';
-$bootstrapFont: 'bootstrap-icons';
+$main-font: "Satoshi";
+$sub-font: "ClashDisplay";
+$magnita: "Magnita";
+$bootstrapFont: "bootstrap-icons";
 
 // Color Settings
-$text-color: rgba(0,0,0,0.7);
+$text-color: rgba(0, 0, 0, 0.7);
 $text-dark: #000;
-$heading: #19352D;
-$color-one: #CFFF45;
-$color-two: #29594B;
-$color-three:#0C3A30;
-$color-four: #E6FD5A;
-$color-five: #0E3E2F;
-$color-six: #DFFF5E;
-$color-seven: #044F3B;
-$color-eight: #1F5E59;
-$color-nine: #D0FF45;
-$light-bg-one: #EBF3EE;
-$light-bg-two: #EDF1EE;
-$cyan: #DCEFF0;
+$heading: #19352d;
+$description: #555;
+// $heading: #30e3ca;
+$color-one: #cfff45;
+// $color-one: #7cffa8;
+$color-two: #29594b;
+$color-three: #0c3a30;
+$color-four: #e6fd5a;
+$color-five: #0e3e2f;
+$color-six: #dfff5e;
+$color-seven: #044f3b;
+$color-eight: #1f5e59;
+$color-nine: #d0ff45;
+$light-bg-one: #ebf3ee;
+$light-bg-two: #edf1ee;
+$cyan: #dceff0;
+$link: #0a4020;
+
+// =================== new color theme ===================
+// Colors
+$primary-color: #30e3ca;
+$secondary-color: #7cffa8;
+$accent-color: #10b981;
+$background-color: #ffffff;
+
+// text
+$text-color-heading: #1a1a1a;
+$text-color-description: #333333;
