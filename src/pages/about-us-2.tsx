@@ -15,14 +15,13 @@ import FooterTwo from "../layout/footer/footer-two";
 export default function AboutUsTwoPage() {
   return (
     <Wrapper>
-
       {/* seo title */}
       <SEOCom title="About us 2" />
       {/* seo title */}
-    
+
       <div className="main-page-wrapper">
         {/* header start */}
-        <HeaderOne/>
+        <HeaderOne />
         {/* header end */}
         <main>
           {/* breadcrumb start */}
@@ -36,15 +35,15 @@ export default function AboutUsTwoPage() {
           {/* breadcrumb end */}
 
           {/* text feature three area start */}
-          <TextFeatureThree cls="text-feature-seven mt-160 lg-mt-80 pb-200 lg-pb-120"/>
+          <TextFeatureThree cls="text-feature-seven mt-160 lg-mt-80 pb-200 lg-pb-120" />
           {/* text feature three area end */}
 
           {/* text feature three area start */}
-          <TextFeatureTwo/>
+          <TextFeatureTwo />
           {/* text feature three area end */}
 
           {/* block feature four start */}
-          <BlockFeatureFour/>
+          <BlockFeatureFour />
           {/* block feature four end */}
 
           {/* feedback section four start */}
@@ -52,15 +51,15 @@ export default function AboutUsTwoPage() {
           {/* feedback section four end */}
 
           {/* fancy banner five start */}
-          <FancyBannerFive/>
+          <FancyBannerFive />
           {/* fancy banner five end */}
 
           {/* faq section start */}
-          <FaqSectionOne/>
+          <FaqSectionOne />
           {/* faq section end */}
 
           {/* blogs start */}
-          <HomeBlogs cls="mt-150 lg-mt-80 pb-150 lg-pb-80"/>
+          <HomeBlogs cls="mt-150 lg-mt-80 pb-150 lg-pb-80" />
           {/* blogs end */}
 
           {/* fancy banner three start */}
@@ -69,7 +68,7 @@ export default function AboutUsTwoPage() {
         </main>
 
         {/* footer start */}
-        <FooterTwo/>
+        <FooterTwo />
         {/* footer end */}
       </div>
     </Wrapper>

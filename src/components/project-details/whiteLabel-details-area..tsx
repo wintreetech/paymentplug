@@ -23,7 +23,7 @@ function ListItem({
   );
 }
 
-const ProjectDetailsArea = () => {
+const WhiteLabelProjectDetails = () => {
   return (
     <div className="project-details-one position-relative pb-150 lg-pb-80">
       <div className="project-info position-relative mb-150 lg-mb-80">
@@ -55,8 +55,8 @@ const ProjectDetailsArea = () => {
 
       <div className="container">
         <div>
-          <div className="upper-title">overview</div>
-          <h2>Project Overview.</h2>
+          <div className="upper-title">White Label</div>
+          <h2>Merchant Back Office</h2>
         </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -229,4 +229,4 @@ const ProjectDetailsArea = () => {
   );
 };
 
-export default ProjectDetailsArea;
+export default WhiteLabelProjectDetails;

@@ -4,12 +4,13 @@ import HeaderTwo from "../layout/header/header-two";
 import ProjectDetailsArea from "../components/project-details/project-details-v1-area";
 import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import FooterTwo from "../layout/footer/footer-two";
+import WhiteLabelProjectDetails from "../components/project-details/whiteLabel-details-area.";
 
-export default function ProjectDetailsV1Page() {
+export default function WhiteLabel() {
   return (
     <Wrapper>
       {/* seo title */}
-      <SEOCom title="Project details v1" />
+      <SEOCom title="White Label" />
       {/* seo title */}
 
       <div className="main-page-wrapper">
@@ -24,10 +25,13 @@ export default function ProjectDetailsV1Page() {
           >
             <div className="container position-relative">
               <div className="row align-items-center">
-                <div className="col-lg-8 m-auto text-center">
-                  <div className="tag">Consulting</div>
+                <div
+                  className="col-lg-8 m-auto text-center"
+                  style={{ width: "100%" }}
+                >
+                  <div className="tag">White Label</div>
                   <h1 className="hero-heading no-bg text-white">
-                    Tax File Preparation & Consulting
+                    White-Label Payments and Merchant Management
                   </h1>
                 </div>
               </div>
@@ -36,7 +40,7 @@ export default function ProjectDetailsV1Page() {
           {/* breadcrumb end */}
 
           {/* project details area start */}
-          <ProjectDetailsArea />
+          <WhiteLabelProjectDetails />
           {/* project details area end */}
 
           {/* fancy banner three start */}
