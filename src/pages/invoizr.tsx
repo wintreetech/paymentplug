@@ -5,7 +5,6 @@ import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import NewsletterBanner from "../components/newsletter/newsletter-banner";
 import FooterThree from "../layout/footer/footer-three";
-import BoardingServiceDetails from "../components/services/boarding-service-details";
 import InvoizrServiceDetails from "../components/services/invoizr-service-details";
 
 export default function Invoizr() {

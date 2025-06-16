@@ -59,16 +59,13 @@ const WhiteLabelProjectDetails = () => {
           <h2>Merchant Back Office</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullaum laboris nisi ut aliquip
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          volupta velit esse cillum dolore eu fugiat nulla pariatur.
+          Fully customizable merchant back office interface, seamlessly
+          integrated with your brand. Includes your logo, URL, and branded email
+          notifications. Features a responsive design for desktops, tablets, and
+          smartphones, a powerful real-time analytics dashboard, and multi-level
+          user access management.
         </p>
-        <p>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-          officia deserunt mollit anim id est laborum magna quis nostured.
-        </p>
+
         <div className="img-gallery mb-60 lg-mb-40">
           <div className="row">
             <div className="col-sm-8">
