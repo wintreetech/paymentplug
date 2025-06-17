@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const FancyBannerSeven = () => {
   return (
     <div className="fancy-banner-seven box-layout pt-100 lg-pt-80">
