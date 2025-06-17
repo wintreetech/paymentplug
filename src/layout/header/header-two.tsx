@@ -6,16 +6,23 @@ import useSticky from "../../hooks/use-sticky";
 import LoginModal from "../../components/common/login-modal";
 
 const HeaderTwo = () => {
-  const {sticky} = useSticky();
+  const { sticky } = useSticky();
   return (
     <>
-      <header className={`theme-main-menu menu-overlay menu-style-one white-vr sticky-menu ${sticky?'fixed':''}`}>
+      <header
+        className={`theme-main-menu menu-overlay menu-style-one white-vr sticky-menu ${
+          sticky ? "fixed" : ""
+        }`}
+      >
         <div className="inner-content position-relative">
           <div className="top-header">
             <div className="d-flex align-items-center justify-content-between">
               <div className="logo order-lg-0">
                 <NavLink to="/" className="d-flex align-items-center">
-                  <img src="/assets/images/logo/logo_01.svg" alt="logo" />
+                  <img
+                    src="/assets/images/logo/paymentplug-logo-white.svg"
+                    alt="logo"
+                  />
                 </NavLink>
               </div>
 
@@ -52,7 +59,7 @@ const HeaderTwo = () => {
       </header>
 
       {/* login modal start */}
-      <LoginModal/>
+      <LoginModal />
       {/* login modal end */}
     </>
   );

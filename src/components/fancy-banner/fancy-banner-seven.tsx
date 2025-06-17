@@ -10,7 +10,6 @@ const FancyBannerSeven = () => {
                   Invoicing Solution
                 </div>
                 <h2 className="text-white">Create & Manage Invoices Online</h2>
-                {/* <p className="text-white">jsbfvjdfvjnfdv</p> */}
               </div>
             </div>
             <div className="col-xl-5 col-md-6 ms-auto">
