@@ -15,19 +15,16 @@ import FooterTwo from "../layout/footer/footer-two";
 export default function Home() {
   return (
     <Wrapper>
-
       {/* seo title */}
       <SEOCom title="Home" />
       {/* seo title */}
 
       <div className="main-page-wrapper">
-
         {/* header area */}
         <HeaderOne />
         {/* header area */}
 
         <main>
-
           {/* hero banner start */}
           <HeroBannerOne />
           {/* hero banner end */}
@@ -64,12 +61,11 @@ export default function Home() {
           <FancyBannerThree />
           {/* fancy banner three end */}
         </main>
-
       </div>
 
       {/* footer start */}
       <FooterTwo />
       {/* footer end */}
     </Wrapper>
-  )
+  );
 }

@@ -6,7 +6,7 @@ function CardStyle({
   num,
   text,
   desc,
-  decimal=false
+  decimal = false,
 }: {
   icon: string;
   num: number;
@@ -20,7 +20,12 @@ function CardStyle({
         <img src={icon} alt="icon" className="lazy-img" />
       </div>
       <div className="main-count fw-500">
-        <CounterUp number={num} text={text} add_style={true} decimal={decimal} />
+        <CounterUp
+          number={num}
+          text={text}
+          add_style={true}
+          decimal={decimal}
+        />
       </div>
       <p className="ps-xxl-5 ps-xl-3 pe-xxl-5 pe-xl-3">{desc}</p>
     </div>
@@ -76,8 +81,16 @@ const TextFeatureTwo = () => {
           </div>
         </div>
       </div>
-      <img src="/assets/images/shape/shape_07.svg" alt="shape" className="lazy-img shapes shape_01" />
-      <img src="/assets/images/shape/shape_08.svg" alt="shape" className="lazy-img shapes shape_02" />
+      <img
+        src="/assets/images/shape/shape_07.svg"
+        alt="shape"
+        className="lazy-img shapes shape_01"
+      />
+      <img
+        src="/assets/images/shape/shape_08.svg"
+        alt="shape"
+        className="lazy-img shapes shape_02"
+      />
     </div>
   );
 };

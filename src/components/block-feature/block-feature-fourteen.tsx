@@ -1,28 +1,27 @@
-
 const feature_data = [
   {
     id: 1,
-    icon: '/assets//images/icon/icon_98.svg',
-    title: "Health Insurance",
-    desc: "Maximize convenience by paying for ads, subscriptions, and inventory with Mastercard®.",
+    icon: "/assets//images/icon/icon_98.svg",
+    title: "Address Verification",
+    desc: "Ensure transactions match customer address to reduce fraud.",
   },
   {
     id: 2,
-    icon: '/assets//images/icon/icon_99.svg',
-    title: "Family Insurance",
-    desc: "Maximize convenience by paying for ads, subscriptions, and inventory with Mastercard®.",
+    icon: "/assets//images/icon/icon_99.svg",
+    title: "Fraud Scrubbing",
+    desc: "Automatically filter and block suspicious payments.",
   },
   {
     id: 3,
-    icon: '/assets//images/icon/icon_100.svg',
-    title: "Travel Insurance",
-    desc: "Maximize convenience by paying for ads, subscriptions, and inventory with Mastercard®.",
+    icon: "/assets//images/icon/icon_100.svg",
+    title: "Whitelist & Blacklist",
+    desc: "Manage trusted and blocked BINs, IPs, emails, and countries.",
   },
   {
     id: 4,
-    icon: '/assets//images/icon/icon_101.svg',
-    title: "Education Insurance",
-    desc: "Maximize convenience by paying for ads, subscriptions, and inventory with Mastercard®.",
+    icon: "/assets//images/icon/icon_101.svg",
+    title: "Real-Time Alerts",
+    desc: "Get instant notifications on potential fraud attempts.",
   },
 ];
 
@@ -35,8 +34,8 @@ const BlockFeatureFourteen = () => {
             <div className="row">
               <div className="col-lg-6">
                 <div className="title-two text-center text-lg-start mb-30">
-                  <div className="upper-title-two mb-10">Services</div>
-                  <h2 className="text-dark">Our Featured Scheme</h2>
+                  <div className="upper-title-two mb-10">Fraud Guard</div>
+                  <h2 className="text-dark">Intelligent Fraud Protection</h2>
                 </div>
               </div>
             </div>
@@ -53,15 +52,7 @@ const BlockFeatureFourteen = () => {
                     </div>
                     <div className="text">
                       <h4 className="fw-bold mb-25">{f.title}</h4>
-                      <p className="mb-20 pe-xxl-5 me-xxl-5">
-                        {f.desc}
-                      </p>
-                      <a
-                        href="service-details.html"
-                        className="arrow-btn tran3s mt-auto stretched-link"
-                      >
-                        <img src="/assets/images/icon/icon_09.svg" alt="icon" className="lazy-img" />
-                      </a>
+                      <p className="mb-20 pe-xxl-5 me-xxl-5">{f.desc}</p>
                     </div>
                   </div>
                 </div>
@@ -70,20 +61,17 @@ const BlockFeatureFourteen = () => {
 
             <div className="section-subheading md-mt-40">
               <p className="text-lg mb-20 mt-30">
-                Inciddnt ut labore et dolor magna aliu. enim ad mim venam, quis
-                nostru{" "}
+                We use multiple fraud rules and external engines to protect
+                every transaction.
               </p>
-              <a
-                href="service-v1.html"
-                className="btn-three border-style icon-link"
-              >
-                <span>See All Services</span>
-                <img src="/assets/images/icon/icon_09.svg" alt="icon" className="lazy-img icon ms-1"/>
-              </a>
             </div>
           </div>
         </div>
-        <img src="/assets/images/shape/shape_05.svg" alt="shape" className="lazy-img shapes shape_01"/>
+        <img
+          src="/assets/images/shape/shape_05.svg"
+          alt="shape"
+          className="lazy-img shapes shape_01"
+        />
       </div>
     </div>
   );

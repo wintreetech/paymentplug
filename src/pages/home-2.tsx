@@ -15,66 +15,66 @@ import FooterOne from "../layout/footer/footer-one";
 import HeaderTwo from "../layout/header/header-two";
 
 export default function HomePageTwo() {
-	return (
-		<Wrapper>
-			{/* seo title */}
-			<SEOCom title="Home 2" />
-			{/* seo title */}
+  return (
+    <Wrapper>
+      {/* seo title */}
+      <SEOCom title="Home 2" />
+      {/* seo title */}
 
-			<div className="main-page-wrapper">
-				{/* header start */}
-				<HeaderTwo />
-				{/* header end */}
-				<main>
-					{/* hero banner start */}
-					<HeroBannerTwo />
-					{/* hero banner end */}
+      <div className="main-page-wrapper">
+        {/* header start */}
+        <HeaderTwo />
+        {/* header end */}
+        <main>
+          {/* hero banner start */}
+          <HeroBannerTwo />
+          {/* hero banner end */}
 
-					{/* fancy banner one start */}
-					<FancyBannerOne />
-					{/* fancy banner one end */}
+          {/* fancy banner one start */}
+          <FancyBannerOne />
+          {/* fancy banner one end */}
 
-					{/* block feature one start */}
-					<BlockFeatureOne />
-					{/* block feature one end */}
+          {/* block feature one start */}
+          <BlockFeatureOne />
+          {/* block feature one end */}
 
-					{/* text feature one start */}
-					<TextFeatureOne />
-					{/* text feature one end */}
+          {/* text feature one start */}
+          <TextFeatureOne />
+          {/* text feature one end */}
 
-					{/* block feature two start */}
-					<BlockFeatureTwo />
-					{/* block feature two end */}
+          {/* block feature two start */}
+          <BlockFeatureTwo />
+          {/* block feature two end */}
 
-					{/* block feature three start */}
-					<BlockFeatureThree />
-					{/* block feature three end */}
+          {/* block feature three start */}
+          <BlockFeatureThree />
+          {/* block feature three end */}
 
-					{/* feedback one start */}
-					<FeedbackOne />
-					{/* feedback one end */}
+          {/* feedback one start */}
+          <FeedbackOne />
+          {/* feedback one end */}
 
-					{/* team section one start */}
-					<TeamSectionOne />
-					{/* team section one end */}
+          {/* team section one start */}
+          <TeamSectionOne />
+          {/* team section one end */}
 
-					{/* faq section start */}
-					<FaqSectionOne />
-					{/* faq section end */}
+          {/* faq section start */}
+          <FaqSectionOne />
+          {/* faq section end */}
 
-					{/* blog item start */}
-					<HomeTwoBlogs />
-					{/* blog item end */}
+          {/* blog item start */}
+          <HomeTwoBlogs />
+          {/* blog item end */}
 
-					{/* fancy banner two start */}
-					<FancyBannerTwo />
-					{/* fancy banner two end */}
-				</main>
+          {/* fancy banner two start */}
+          <FancyBannerTwo />
+          {/* fancy banner two end */}
+        </main>
 
-				{/* footer start */}
-				<FooterOne />
-				{/* footer end */}
-			</div>
-		</Wrapper>
-	);
+        {/* footer start */}
+        <FooterOne />
+        {/* footer end */}
+      </div>
+    </Wrapper>
+  );
 }

@@ -1,4 +1,4 @@
-const ProjectDetailsFeature = () => {
+const WhiteLabelFeature = () => {
   return (
     <div className="row">
       <div className="col-lg-4 wow fadeInUp">
@@ -10,9 +10,10 @@ const ProjectDetailsFeature = () => {
               className="lazy-img"
             />
           </div>
-          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Collect Info</h4>
+          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Integration Options</h4>
           <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
-            We collect require documents & send for check
+            Integrate quickly using standard methods, REST APIs, or mobile SDKs
+            for Android and iOS.
           </p>
         </div>
       </div>
@@ -25,9 +26,10 @@ const ProjectDetailsFeature = () => {
               className="lazy-img"
             />
           </div>
-          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Research & Solution</h4>
+          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Technology Support</h4>
           <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
-            We check the documents & send for final approval
+            Works seamlessly with Java, JSP, PHP, Curl, Python, Ruby, and many
+            other popular technologies.
           </p>
         </div>
       </div>
@@ -40,9 +42,10 @@ const ProjectDetailsFeature = () => {
               className="lazy-img"
             />
           </div>
-          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Finalize Result</h4>
+          <h4 className="fw-bold mt-35 md-mt-30 mb-15">Format Support</h4>
           <p className="m0 fs-5 lh-base pe-xl-5 ps-xl-5">
-            After approve you ready to use your accounts
+            APIs support form-based, XML, and JSON formats to match diverse
+            system requirements easily.
           </p>
         </div>
       </div>
@@ -50,4 +53,4 @@ const ProjectDetailsFeature = () => {
   );
 };
 
-export default ProjectDetailsFeature;
+export default WhiteLabelFeature;

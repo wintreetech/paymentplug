@@ -14,7 +14,6 @@ import FooterTwo from "../layout/footer/footer-two";
 export default function HomePageSeven() {
   return (
     <Wrapper>
-
       {/* seo title */}
       <SEOCom title="Home 7" />
       {/* seo title */}
@@ -22,7 +21,7 @@ export default function HomePageSeven() {
       <div className="main-page-wrapper">
         <div className="box-layout mb-0 position-relative border-40 overflow-hidden">
           {/* header start */}
-          <HeaderSeven/>
+          <HeaderSeven />
           {/* header end */}
 
           {/* hero banner start */}
@@ -31,11 +30,11 @@ export default function HomePageSeven() {
         </div>
 
         {/* block feature start */}
-        <BlockFeatureThirteen/>
+        <BlockFeatureThirteen />
         {/* block feature end */}
 
         {/* block feature start */}
-        <BlockFeatureFourteen/>
+        <BlockFeatureFourteen />
         {/* block feature end */}
 
         {/* feedback start */}
@@ -55,13 +54,12 @@ export default function HomePageSeven() {
         {/* blog grid area end */}
 
         {/* fancy banner start */}
-        <FancyBannerEight/>
+        <FancyBannerEight />
         {/* fancy banner end */}
       </div>
       {/* footer start */}
-      <FooterTwo bg={false}/>
+      <FooterTwo bg={false} />
       {/* footer end */}
-    
     </Wrapper>
   );
 }

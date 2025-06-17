@@ -1,6 +1,51 @@
-import { NavLink } from "react-router-dom";
 // gallery images
-import ProjectDetailsFeature from "./project-details-feature";
+import BlockFeatureFour from "../block-feature/block-feature-four";
+import BlockFeatureFourteen from "../block-feature/block-feature-fourteen";
+import NumberedCardList from "../cards/numberedCardList";
+import RolldownList from "../cards/rollDownList";
+import FancyBannerSeven from "../fancy-banner/fancy-banner-seven";
+import TextFeatureOne from "../text-feature/text-feature-one";
+import WhiteLabelFeature from "./white-label-feature";
+
+const items = [
+  "Customizable back office with full brand integration",
+  "Displays logo, custom URL, and branded notifications",
+  "Responsive design for desktop, tablet, and mobile",
+  "Dashboard with real-time insights and analytics",
+  "Multi-level access control for user management",
+  "Enables seamless transaction tracking and control",
+];
+
+const supportedPlatforms = [
+  {
+    title: "Magento",
+    image: "/assets/images/assets/magento_logo.png",
+  },
+  {
+    title: "Magento 2.0",
+    image: "/assets/images/assets/magento_2.0_logo.png",
+  },
+  {
+    title: "OpenCart",
+    image: "/assets/images/assets/OpenCart_logo.png",
+  },
+  {
+    title: "osCommerce",
+    image: "/assets/images/assets/oscommerce_logo.png",
+  },
+  {
+    title: "PrestaShop",
+    image: "/assets/images/assets/prestashop_logo.png",
+  },
+  {
+    title: "Zen Cart",
+    image: "/assets/images/assets/zencart_logo.png",
+  },
+  {
+    title: "WooCommerce",
+    image: "/assets/images/assets/woocommerce_logo.png",
+  },
+];
 
 // list item
 function ListItem({
@@ -66,6 +111,8 @@ const WhiteLabelProjectDetails = () => {
           user access management.
         </p>
 
+        <NumberedCardList items={items} />
+
         <div className="img-gallery mb-60 lg-mb-40">
           <div className="row">
             <div className="col-sm-8">
@@ -90,19 +137,17 @@ const WhiteLabelProjectDetails = () => {
           </div>
         </div>
         <div>
-          <div className="upper-title">Process</div>
-          <h2>Research & Processing.</h2>
+          <div className="upper-title">Toolkit</div>
+          <h2>Ready Integration Kits</h2>
         </div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullaum laboris nisi ut aliquip
-          ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-          volupta velit esse cillum dolore eu fugiat nulla pariatur.
+          Ready-to-use integration kits enable instant merchant onboarding,
+          supported by white-label documentation that aligns seamlessly with
+          your brand.
         </p>
         <div className="line-wrapper border-top border-bottom pt-20 pb-60 lg-pb-40 mt-60 lg-mt-40 mb-70 lg-mb-40">
           {/* project details feature start */}
-          <ProjectDetailsFeature />
+          <WhiteLabelFeature />
           {/* project details feature end */}
         </div>
         <div className="text-feature-three text-feature-seven position-relative mt-120 lg-mt-80">
@@ -110,17 +155,17 @@ const WhiteLabelProjectDetails = () => {
             <div className="row">
               <div className="col-xxl-5 col-lg-6 ms-auto d-flex flex-column order-lg-last wow fadeInRight">
                 <div>
-                  <div className="upper-title">Final Result</div>
-                  <h2>Find out the Project solution.</h2>
+                  <div className="upper-title">LabelPay</div>
+                  <h2>Branded Standard Checkout</h2>
                 </div>
                 <p className="mb-55">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore.
+                  A fully responsive payment page customizable to your brand or
+                  your merchant’s identity.
                 </p>
                 <ul className="style-none">
-                  <li>Find the problem first</li>
-                  <li>Make research and find out the solution</li>
-                  <li>Finalize the solution & apply.</li>
+                  <li>Responsive page supporting multiple languages</li>
+                  <li>Customizable to reflect partner or merchant identity</li>
+                  <li>Includes logo, URL, and theme color customization</li>
                 </ul>
                 <div className="counter-wrapper border-0 mt-10">
                   <div className="row">
@@ -154,74 +199,34 @@ const WhiteLabelProjectDetails = () => {
                     backgroundPosition: "center",
                   }}
                 >
-                  <img
+                  {/* <img
                     src="/assets/images/assets/screen_20.svg"
                     alt="screen"
                     className="lazy-img shapes screen_03"
-                  />
+                  /> */}
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="social-share mt-130 sm-mt-80 d-flex justify-content-end">
-          <ul className="style-none d-flex align-items-center">
-            <li>Share: </li>
-            <li>
-              <NavLink to="#">
-                <i className="bi bi-facebook"></i>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="#">
-                <i className="bi bi-twitter"></i>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="#">
-                <i className="bi bi-dribbble"></i>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="#">
-                <i className="bi bi-instagram"></i>
-              </NavLink>
-            </li>
-          </ul>
+
+        <div className="mt-80">
+          <div className="upper-title">CartPlugin</div>
+          <h2>Easy-to-Integrate Shopping Cart Plugins</h2>
         </div>
-        <div className="pagination-two mt-35">
-          <ul className="style-none d-flex justify-content-between">
-            <li>
-              <NavLink to="#">
-                <span className="d-flex align-items-center align-items-md-end">
-                  <i className="bi bi-arrow-left"></i>
-                  <span className="ms-3 ms-md-4">
-                    <span className="pr-dir text-uppercase d-block">
-                      Previous
-                    </span>
-                    <span className="pr-name d-none d-md-block tran3s fw-500">
-                      Market Analysis.
-                    </span>
-                  </span>
-                </span>
-              </NavLink>
-            </li>
-            <li>
-              <NavLink to="#">
-                <span className="d-flex align-items-center text-end align-items-md-end">
-                  <span className="me-3 me-md-4">
-                    <span className="pr-dir text-uppercase d-block">Next</span>
-                    <span className="pr-name d-none d-md-block tran3s fw-500">
-                      Online Banking
-                    </span>
-                  </span>
-                  <i className="bi bi-arrow-right"></i>
-                </span>
-              </NavLink>
-            </li>
-          </ul>
-        </div>
+        <p>
+          Integration with existing shopping carts is made easy for merchants
+          through our ready-to-use third-party plugins, designed to simplify
+          setup and ensure a smooth, hassle-free connection with popular
+          e-commerce platforms.
+        </p>
+
+        <RolldownList items={supportedPlatforms} />
       </div>
+      <BlockFeatureFour />
+      <BlockFeatureFourteen />
+      <FancyBannerSeven />
+      <TextFeatureOne />
     </div>
   );
 };
