@@ -3,7 +3,7 @@ import { IMenu } from "../types/menu-d-t";
 const menu_data: IMenu[] = [
 	{
 		id: 1,
-		link: "/products",
+		link: "",
 		title: "Products",
 		dropdown: true,
 		dropdown_menus: [
@@ -16,7 +16,7 @@ const menu_data: IMenu[] = [
 
 	{
 		id: 2,
-		link: "/solutions",
+		link: "",
 		title: "Solutions",
 		dropdown: true,
 		dropdown_menus: [{ link: "/solutions/white-label", title: "White Label" }],
