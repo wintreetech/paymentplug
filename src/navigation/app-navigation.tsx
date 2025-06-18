@@ -3,14 +3,11 @@ import ScrollToTop from "../components/scroll-to-top";
 
 import HomePageFour from "../pages/home-4";
 
-import ServiceV1Page from "../pages/service-v1";
-
 import AboutUsPage from "../pages/about-us";
 import ContactPage from "../pages/contact";
 
 import NotFoundPage from "../pages/not-found";
 
-import ProjectV3Page from "../pages/project-v3";
 import RiskTracker from "../pages/risk-tracker";
 import Wallet from "../pages/wallet";
 import BoardingManger from "../pages/boarding-manager";
