@@ -20,90 +20,90 @@ import HomeTwoBlogs from "../components/blogs/home-2-blogs";
 import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
 
 export default function HomePageFour() {
-  return (
-    <Wrapper>
-      {/* seo title */}
-      <SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More." />
-      {/* seo title */}
+	return (
+		<Wrapper>
+			{/* seo title */}
+			<SEOCom title="PaymentPlug | Seamless Payment Solutions with White Label Wallets, Risk Tracking, Invoicing & More." />
+			{/* seo title */}
 
-      <div className="main-page-wrapper">
-        {/* header start */}
-        <HeaderFour />
-        {/* header end */}
-        <main>
-          {/* hero banner start */}
-          <HeroBannerFour />
-          {/* hero banner end */}
+			<div className="main-page-wrapper">
+				{/* header start */}
+				<HeaderFour />
+				{/* header end */}
+				<main>
+					{/* hero banner start */}
+					<HeroBannerFour />
+					{/* hero banner end */}
 
-          {/* block feature seven start */}
-          <BlockFeatureSeven />
-          {/* block feature seven end */}
+					{/* block feature seven start */}
+					<BlockFeatureSeven />
+					{/* block feature seven end */}
 
-          {/* text feature six start */}
-          <TextFeatureSix />
-          {/* text feature six end */}
+					{/* text feature six start */}
+					<TextFeatureSix />
+					{/* text feature six end */}
 
-          {/* block feature seven start */}
-          <BlockFeatureEight />
-          {/* block feature seven end */}
+					{/* block feature seven start */}
+					<BlockFeatureEight />
+					{/* block feature seven end */}
 
-          {/* text feature seven start */}
-          <TextFeatureSeven />
-          {/* text feature seven end */}
+					{/* text feature seven start */}
+					<TextFeatureSeven />
+					{/* text feature seven end */}
 
-          {/* project faq area start */}
-          <FaqSectionTwo />
-          {/* project faq area end */}
+					{/* project faq area start */}
+					<FaqSectionTwo />
+					{/* project faq area end */}
 
-          {/* fancy banner start */}
-          <FancyBannerSeven />
-          {/* fancy banner end */}
+					{/* fancy banner start */}
+					<FancyBannerSeven />
+					{/* fancy banner end */}
 
-          {/* text feature eight start */}
-          <TextFeatureEight />
-          {/* text feature eight end */}
+					{/* text feature eight start */}
+					<TextFeatureEight />
+					{/* text feature eight end */}
 
-          {/* text feature nine start */}
-          <TextFeatureNine />
-          {/* text feature nine end */}
+					{/* text feature nine start */}
+					<TextFeatureNine />
+					{/* text feature nine end */}
 
-          {/* block feature start */}
-          <BlockFeatureFifteen />
-          {/* block feature end */}
+					{/* block feature start */}
+					<BlockFeatureFifteen />
+					{/* block feature end */}
 
-          {/* feedback four start */}
-          <FeedbackFour />
-          {/* feedback four end */}
+					{/* feedback four start */}
+					<FeedbackFour />
+					{/* feedback four end */}
 
-          {/* blog item start */}
-          <HomeTwoBlogs />
-          {/* blog item end */}
+					{/* blog item start */}
+					<HomeTwoBlogs />
+					{/* blog item end */}
 
-          {/* faq section start */}
-          <FaqSectionOne />
-          {/* faq section end */}
+					{/* faq section start */}
+					<FaqSectionOne />
+					{/* faq section end */}
 
-          {/* fancy banner two start */}
-          <FancyBannerTwo />
-          {/* fancy banner two end */}
+					{/* fancy banner two start */}
+					<FancyBannerTwo />
+					{/* fancy banner two end */}
 
-          {/* blog item start */}
-          <HomeFourBlogs />
-          {/* blog item end */}
-        </main>
+					{/* blog item start */}
+					<HomeFourBlogs />
+					{/* blog item end */}
+				</main>
 
-        {/* footer area start */}
-        <div className="footer-large-wrapper position-relative">
-          {/* newsletter area start */}
-          <NewsletterBannerTwo />
-          {/* newsletter area end */}
+				{/* footer area start */}
+				<div className="footer-large-wrapper position-relative">
+					{/* newsletter area start */}
+					<NewsletterBannerTwo />
+					{/* newsletter area end */}
 
-          {/* footer start */}
-          <FooterFour />
-          {/* footer end */}
-        </div>
-        {/* footer area end */}
-      </div>
-    </Wrapper>
-  );
+					{/* footer start */}
+					<FooterFour />
+					{/* footer end */}
+				</div>
+				{/* footer area end */}
+			</div>
+		</Wrapper>
+	);
 }
