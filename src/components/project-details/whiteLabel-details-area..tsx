@@ -48,25 +48,25 @@ const supportedPlatforms = [
 ];
 
 // list item
-function ListItem({
-  icon,
-  text,
-  sm_text,
-}: {
-  icon: string;
-  text: string;
-  sm_text: string;
-}) {
-  return (
-    <li className="d-flex">
-      <img src={icon} alt="icon" className="lazy-img icon" />
-      <div className="ps-4">
-        <div className="text1">{text}</div>
-        <span>{sm_text}</span>
-      </div>
-    </li>
-  );
-}
+// function ListItem({
+//   icon,
+//   text,
+//   sm_text,
+// }: {
+//   icon: string;
+//   text: string;
+//   sm_text: string;
+// }) {
+//   return (
+//     <li className="d-flex">
+//       <img src={icon} alt="icon" className="lazy-img icon" />
+//       <div className="ps-4">
+//         <div className="text1">{text}</div>
+//         <span>{sm_text}</span>
+//       </div>
+//     </li>
+//   );
+// }
 
 const WhiteLabelProjectDetails = () => {
   return (
