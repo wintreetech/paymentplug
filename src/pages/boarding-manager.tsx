@@ -3,9 +3,9 @@ import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
-import NewsletterBanner from "../components/newsletter/newsletter-banner";
-import FooterThree from "../layout/footer/footer-three";
 import BoardingServiceDetails from "../components/services/boarding-service-details";
+import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
+import FooterFour from "../layout/footer/footer-four";
 
 export default function BoardingManger() {
   return (
@@ -38,15 +38,12 @@ export default function BoardingManger() {
           {/* fancy banner three start */}
           <FancyBannerThree />
           {/* fancy banner three end */}
-
-          {/* news letter start */}
-          <NewsletterBanner />
-          {/* news letter end */}
         </main>
 
-        {/* footer start */}
-        <FooterThree style_2={true} />
-        {/* footer end */}
+        <div className="footer-large-wrapper position-relative">
+          <NewsletterBannerTwo />
+          <FooterFour />
+        </div>
       </div>
     </Wrapper>
   );

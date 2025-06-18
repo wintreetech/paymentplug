@@ -6,6 +6,8 @@ import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import NewsletterBanner from "../components/newsletter/newsletter-banner";
 import FooterThree from "../layout/footer/footer-three";
 import WalletServiceDetails from "../components/services/wallet-service-details";
+import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
+import FooterFour from "../layout/footer/footer-four";
 
 export default function Wallet() {
   return (
@@ -40,12 +42,17 @@ export default function Wallet() {
           {/* fancy banner three end */}
 
           {/* news letter start */}
-          <NewsletterBanner />
+          {/* <NewsletterBanner /> */}
           {/* news letter end */}
         </main>
 
         {/* footer start */}
-        <FooterThree style_2={true} />
+        {/* <FooterThree style_2={true} /> */}
+
+        <div className="footer-large-wrapper position-relative">
+          <NewsletterBannerTwo />
+          <FooterFour />
+        </div>
         {/* footer end */}
       </div>
     </Wrapper>
