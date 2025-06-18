@@ -70,8 +70,8 @@ function ListItem({
 
 const WhiteLabelProjectDetails = () => {
   return (
-    <div className="project-details-one position-relative pb-150 lg-pb-80">
-      <div className="project-info position-relative mb-150 lg-mb-80">
+    <div className="project-details-one position-relative pb-150 lg-pb-80 mt-150">
+      {/* <div className="project-info position-relative mb-150 lg-mb-80">
         <div className="inner-wrapper m-auto">
           <div className="d-lg-flex align-items-center">
             <h3>
@@ -96,7 +96,7 @@ const WhiteLabelProjectDetails = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container">
         <div>
