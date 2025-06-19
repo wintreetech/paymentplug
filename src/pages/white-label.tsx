@@ -2,8 +2,9 @@ import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
 import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
-import FooterTwo from "../layout/footer/footer-two";
 import WhiteLabelProjectDetails from "../components/project-details/whiteLabel-details-area.";
+import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
+import FooterFour from "../layout/footer/footer-four";
 
 export default function WhiteLabel() {
   return (
@@ -47,9 +48,10 @@ export default function WhiteLabel() {
           {/* fancy banner three end */}
         </main>
 
-        {/* footer start */}
-        <FooterTwo />
-        {/* footer end */}
+        <div className="footer-large-wrapper position-relative">
+          <NewsletterBannerTwo />
+          <FooterFour />
+        </div>
       </div>
     </Wrapper>
   );

@@ -3,9 +3,8 @@ import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import ServiceDetailsArea from "../components/services/service-details-area";
-import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
-import NewsletterBanner from "../components/newsletter/newsletter-banner";
-import FooterThree from "../layout/footer/footer-three";
+import FooterFour from "../layout/footer/footer-four";
+import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 
 export default function RiskTracker() {
   return (
@@ -34,18 +33,15 @@ export default function RiskTracker() {
           {/* service details area start */}
           <ServiceDetailsArea />
           {/* service details area end */}
-
-          {/* fancy banner three start */}
-          <FancyBannerThree />
-          {/* fancy banner three end */}
-
-          {/* news letter start */}
-          <NewsletterBanner />
-          {/* news letter end */}
         </main>
 
         {/* footer start */}
-        <FooterThree style_2={true} />
+        {/* <FooterThree style_2={true} /> */}
+
+        <div className="footer-large-wrapper position-relative">
+          <NewsletterBannerTwo />
+          <FooterFour />
+        </div>
         {/* footer end */}
       </div>
     </Wrapper>

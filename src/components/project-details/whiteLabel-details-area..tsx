@@ -48,30 +48,30 @@ const supportedPlatforms = [
 ];
 
 // list item
-function ListItem({
-  icon,
-  text,
-  sm_text,
-}: {
-  icon: string;
-  text: string;
-  sm_text: string;
-}) {
-  return (
-    <li className="d-flex">
-      <img src={icon} alt="icon" className="lazy-img icon" />
-      <div className="ps-4">
-        <div className="text1">{text}</div>
-        <span>{sm_text}</span>
-      </div>
-    </li>
-  );
-}
+// function ListItem({
+//   icon,
+//   text,
+//   sm_text,
+// }: {
+//   icon: string;
+//   text: string;
+//   sm_text: string;
+// }) {
+//   return (
+//     <li className="d-flex">
+//       <img src={icon} alt="icon" className="lazy-img icon" />
+//       <div className="ps-4">
+//         <div className="text1">{text}</div>
+//         <span>{sm_text}</span>
+//       </div>
+//     </li>
+//   );
+// }
 
 const WhiteLabelProjectDetails = () => {
   return (
-    <div className="project-details-one position-relative pb-150 lg-pb-80">
-      <div className="project-info position-relative mb-150 lg-mb-80">
+    <div className="project-details-one position-relative pb-150 lg-pb-80 mt-150">
+      {/* <div className="project-info position-relative mb-150 lg-mb-80">
         <div className="inner-wrapper m-auto">
           <div className="d-lg-flex align-items-center">
             <h3>
@@ -96,7 +96,7 @@ const WhiteLabelProjectDetails = () => {
             </ul>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container">
         <div>

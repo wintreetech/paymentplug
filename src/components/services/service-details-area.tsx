@@ -69,7 +69,7 @@ function CardItem({
 }
 const ServiceDetailsArea = () => {
   return (
-    <div className="service-details mt-150 lg-mt-80 mb-100 lg-mb-80">
+    <div className="service-details mt-150 lg-mt-80 mb-150 lg-mb-80">
       <div className="container">
         <div className="row">
           <div className="col-xxl-9 col-lg-8 order-lg-last">
@@ -123,7 +123,7 @@ const ServiceDetailsArea = () => {
 
               <div className="img-meta mb-60 lg-mb-40">
                 <img
-                  src="/assets/images/media/img_35.jpg"
+                  src="/assets/images/media/risk-tracker-one.png"
                   alt="service_img"
                   className="lazy-img w-100 rounded-4"
                 />
