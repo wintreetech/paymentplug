@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
-import HeaderFour from "../layout/header/header-four";
 
 export default function NotFoundPage() {
 	return (
