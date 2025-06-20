@@ -12,7 +12,7 @@ const VerticalCard: React.FC<VerticalCardItemProps> = ({
   description,
 }) => {
   return (
-    <div className="item">
+    <div className="item-card">
       <div className="icon">
         <img src={`${icon}`} alt={`${title}`} />
       </div>

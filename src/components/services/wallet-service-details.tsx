@@ -279,18 +279,18 @@ const WalletServiceDetails = () => {
               <div>
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title="Unique QR Code"
-                  description="Every wallet user is automatically assigned a unique QR code, providing a simple and secure way to identify accounts within the system."
+                  title="Unique QR Code Assignment"
+                  description="Every wallet user is automatically assigned a unique QR code upon account creation, ensuring a personalized identifier for transactions."
                 />
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title=" Easy Payments"
-                  description="Transfers can be easily initiated by scanning the recipient’s QR code, streamlining the payment process and reducing the need for manual entry."
+                  title="Seamless Transfers via Scanning"
+                  description="Funds can be easily transferred by simply scanning the recipient’s unique QR code, streamlining the payment process."
                 />
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title=" Fast Transfers"
-                  description="Using QR codes enables quick, reliable, and secure money transfers, enhancing the overall user experience and transaction efficiency."
+                  title="Secure & Efficient Transactions"
+                  description="The QR-based transfer system enhances both security and speed, reducing manual input and potential errors during transactions."
                 />
               </div>
 

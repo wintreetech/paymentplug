@@ -28,8 +28,8 @@ export default function AboutUsPage() {
             title="Trusted by Global Leaders"
             subtitle="Powering smarter payment growth through expertise, innovation & trust."
             page="About Us"
-            bg_img="/assets/images/media/img_26.jpg"
-            shape="/assets/images/shape/about-us-shape.svg"
+            bg_img="/assets/images/media/about-us-bg.png"
+            shape="/assets/images/shape/shape-about.svg"
             style_2={false}
           />
           {/* breadcrumb end */}
