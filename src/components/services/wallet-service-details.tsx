@@ -135,21 +135,21 @@ const WalletServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-4 wow fadeInUp">
                     <CardItem
-                      icon="/assets/images/icon/icon_81.svg"
+                      icon="/assets/images/icon/icon_113.svg"
                       title="Merchant Onboarding"
                       subtitle="Quickly register and upload products, including bulk uploads for easy catalog management."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <CardItem
-                      icon="/assets/images/icon/icon_82.svg"
+                      icon="/assets/images/icon/icon_114.svg"
                       title=" Promotions & Discounts"
                       subtitle="Easily create and manage offers, discounts, and promo codes to effectively drive sales."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                     <CardItem
-                      icon="/assets/images/icon/icon_83.svg"
+                      icon="/assets/images/icon/icon_115.svg"
                       title="Integration & Reports"
                       subtitle="Easily integrate via API and track sales effectively with comprehensive built-in detailed reports."
                     />
@@ -177,17 +177,17 @@ const WalletServiceDetails = () => {
 
               <div>
                 <VerticalCard
-                  icon="/assets/images/icon/icon_82.svg"
+                  icon="/assets/images/icon/icon_116.svg"
                   title="Customizable Loyalty Programs"
                   description="Design and set up loyalty programs tailored to your business needs by defining how reward points are structured."
                 />
                 <VerticalCard
-                  icon="/assets/images/icon/icon_82.svg"
+                  icon="/assets/images/icon/icon_117.svg"
                   title="Earn Points Through Wallet Activities"
                   description="Both consumers and merchants earn points based on their various transactions and interactions within the wallet."
                 />
                 <VerticalCard
-                  icon="/assets/images/icon/icon_82.svg"
+                  icon="/assets/images/icon/icon_118.svg"
                   title=" Drive Engagement and Retention"
                   description="Rewarding users encourages ongoing participation and loyalty, boosting long-term engagement with your platform."
                 />
@@ -214,21 +214,21 @@ const WalletServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-4 wow fadeInUp">
                     <CardItem
-                      icon="/assets/images/icon/icon_81.svg"
+                      icon="/assets/images/icon/icon_119.svg"
                       title=" Currency Selection"
                       subtitle="Customers and merchants can select their preferred currencies for smooth and localized transactions."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <CardItem
-                      icon="/assets/images/icon/icon_82.svg"
+                      icon="/assets/images/icon/icon_120.svg"
                       title="Rate Management"
                       subtitle="An integrated system that efficiently manages and updates currency exchange rates in real time."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                     <CardItem
-                      icon="/assets/images/icon/icon_83.svg"
+                      icon="/assets/images/icon/icon_121.svg"
                       title="Dynamic Conversion"
                       subtitle="Wallet owners can set currency conversion rates to enable automatic conversions during transfers."
                     />
@@ -315,21 +315,21 @@ const WalletServiceDetails = () => {
                 <div className="row">
                   <div className="col-md-4 wow fadeInUp">
                     <CardItem
-                      icon="/assets/images/icon/icon_81.svg"
+                      icon="/assets/images/icon/icon_125.svg"
                       title=" User Management"
                       subtitle="Wallet owners can access a web-based dashboard to view, manage, and control all user accounts and related activities in one place."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
                     <CardItem
-                      icon="/assets/images/icon/icon_82.svg"
+                      icon="/assets/images/icon/icon_126.svg"
                       title="Loyalty Program Setup"
                       subtitle="Easily create and customize loyalty programs to reward users, enhance engagement, and drive repeat usage of the wallet."
                     />
                   </div>
                   <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
                     <CardItem
-                      icon="/assets/images/icon/icon_83.svg"
+                      icon="/assets/images/icon/icon_127.svg"
                       title="Currency & Settings Control"
                       subtitle="Set up multiple currencies, define real-time or fixed conversion rates, and manage all financial preferences to suit business needs."
                     />
@@ -389,18 +389,18 @@ const WalletServiceDetails = () => {
               <div>
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title="Unique QR Code"
-                  description="Every wallet user is automatically assigned a unique QR code, providing a simple and secure way to identify accounts within the system."
+                  title="PCI DSS Level 1 Compliance"
+                  description="The mobile app and wallet system adhere to the highest level of Payment Card Industry Data Security Standard (PCI DSS Level 1), ensuring robust protection for all payment-related data"
                 />
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title=" Easy Payments"
-                  description="Transfers can be easily initiated by scanning the recipient’s QR code, streamlining the payment process and reducing the need for manual entry."
+                  title="Strong TLS 1.2 Protocol"
+                  description="All data transmissions are secured using the TLS 1.2 protocol, which provides strong encryption and protects against unauthorized access and data breaches."
                 />
                 <VerticalCard
                   icon="/assets/images/icon/icon_82.svg"
-                  title=" Fast Transfers"
-                  description="Using QR codes enables quick, reliable, and secure money transfers, enhancing the overall user experience and transaction efficiency."
+                  title="Trusted Security Certificates"
+                  description="The system uses industry-standard security certificates to verify authenticity and ensure a secure connection between users and the payment gateway."
                 />
               </div>
 
