@@ -31,7 +31,7 @@ const BlockFeatureFive = () => {
                   <h4 className="fw-bold mt-40 md-mt-20 mb-20">{s.title}</h4>
                   <p className="mb-60 md-mb-40">{s.desc}</p>
                   <NavLink
-                    to="/service-details"
+                    to={`${s.link}`}
                     className="arrow-btn tran3s m-auto stretched-link"
                   >
                     <img
@@ -46,7 +46,7 @@ const BlockFeatureFive = () => {
           </div>
           <div className="section-btn md-mt-40">
             <NavLink
-              to="/products"
+              to="/products/risk-tracker"
               className="btn-seven d-inline-flex align-items-center"
             >
               <span className="text">All-in-One Payment Stack</span>

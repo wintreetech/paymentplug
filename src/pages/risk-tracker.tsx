@@ -24,7 +24,7 @@ export default function RiskTracker() {
             subtitle="Platform provides state of the art, white label payment gateway solution."
             page="Risk Tracker"
             shape="/assets/images/shape/shape-risk-tracker.svg"
-            bg_img="/assets/images/media/img_32.jpg"
+            bg_img="/assets/images/media/risk-tracker-bg.png"
             style_2={true}
             cls="me-xl-4"
           />

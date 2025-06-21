@@ -25,7 +25,7 @@ export default function Invoizr() {
             subtitle="The platform offers invoicing via INVOIZR app and web for access."
             page="Invoizr"
             shape="/assets/images/shape/shape-invoizr.svg"
-            bg_img="/assets/images/media/img_32.jpg"
+            bg_img="/assets/images/media/Invoizr-bg.png"
             style_2={true}
             cls="me-xl-4"
           />

@@ -25,7 +25,7 @@ export default function BoardingManger() {
             subtitle="Boarding Manager simplifies merchant onboarding"
             page="Boarding Manager"
             shape="/assets/images/shape/shape-boarding-manager.svg"
-            bg_img="/assets/images/media/img_32.jpg"
+            bg_img="/assets/images/media/bm-bg.png"
             style_2={true}
             cls="me-xl-4"
           />

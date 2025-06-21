@@ -29,16 +29,6 @@ const BlockFeatureEight = () => {
                   />
                   <h4 className="fw-500 mt-30 mb-15">{item.title}</h4>
                   <p className="mb-25">{item.desc}</p>
-                  {/* <NavLink
-                    to="/risk-tracker"
-                    className="arrow-btn tran3s mt-auto stretched-link"
-                  >
-                    <img
-                      src="/assets/images/icon/icon_09.svg"
-                      alt="icon"
-                      className="lazy-img"
-                    />
-                  </NavLink> */}
                 </div>
               </div>
             ))}
