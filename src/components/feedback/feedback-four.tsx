@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import Slider from "react-slick";
 // internal
-import PartnersSliderOne from "../partners/partners-slider-one";
 import { feedback_four } from "../../data/feedback-data";
 
 // slider setting
@@ -106,12 +105,6 @@ const FeedbackFour = ({ spacing }: { spacing?: string }) => {
 							<i className="bi bi-chevron-right"></i>
 						</li>
 					</ul>
-
-					{/* <div className="partner-logo-one pt-80 lg-pt-50 pb-80 lg-pb-50"> */}
-					{/* partner slider start */}
-					{/* <PartnersSliderOne /> */}
-					{/* partner slider end */}
-					{/* </div> */}
 				</div>
 			</div>
 		</div>

@@ -4,7 +4,6 @@ import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
 import TextFeatureOne from "../components/text-feature/text-feature-one";
 import TextFeatureThree from "../components/text-feature/text-feature-three";
 import FeedbackOne from "../components/feedback/feedback-one";
-import PartnersSliderOne from "../components/partners/partners-slider-one";
 import HomeFourBlogs from "../components/blogs/home-4-blogs";
 import HeaderFour from "../layout/header/header-four";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";

@@ -1,12 +1,10 @@
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
-import NewsletterBanner from "../components/newsletter/newsletter-banner";
 import ContactArea from "../components/contact/contact-area";
 import HeaderFour from "../layout/header/header-four";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
-import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
 import HomeFourBlogs from "../components/blogs/home-4-blogs";
 
 export default function ContactPage() {
