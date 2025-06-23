@@ -9,7 +9,7 @@ const TextFeatureSix = () => {
             <div className="col-lg-5">
               <div className="title-two mb-30">
                 <div className="upper-title">Visa & Mastercard</div>
-                <h2>Effortless payments.</h2>
+                <h2>Effortless Payments.</h2>
               </div>
               <p className="text-lg mb-35 pe-xl-5 me-xl-4">
                 A cutting-edge platform with trusted partners driving smooth

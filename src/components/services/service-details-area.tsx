@@ -217,7 +217,7 @@ const ServiceDetailsArea = () => {
 
               <div className="img-meta mb-60 lg-mb-40">
                 <img
-                  src="/assets/images/media/img_35.jpg"
+                  src="/assets/images/media/risk-tracker-two.png"
                   alt="service_img"
                   className="lazy-img w-100 rounded-4"
                 />

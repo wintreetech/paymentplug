@@ -90,9 +90,9 @@ const WalletServiceDetails = () => {
               </p>
 
               <div className="container">
-                <div className="row align-items-center">
+                <div>
                   {/* Left: Text List (on top for mobile/tablet) */}
-                  <div className="col-12 col-lg-6 order-1 order-lg-1">
+                  <div>
                     <ul className="style-none list-item pb-20">
                       <li>Load, send, and receive money.</li>
                       <li>Purchase from the marketplace.</li>
@@ -105,9 +105,9 @@ const WalletServiceDetails = () => {
                   </div>
 
                   {/* Right: Image (below on mobile/tablet) */}
-                  <div className="col-12 col-lg-6 order-2 order-lg-2">
+                  <div>
                     <img
-                      src="/assets/images/media/img_35.jpg"
+                      src="/assets/images/media/white-label-one.png"
                       alt="App Preview"
                       className="img-fluid rounded-4"
                     />
@@ -294,6 +294,12 @@ const WalletServiceDetails = () => {
                 />
               </div>
 
+              <img
+                src="/assets/images/media/white-label-two.png"
+                alt="App Preview"
+                className="img-fluid rounded-4"
+              />
+
               <div className="divider" />
 
               <div
@@ -381,9 +387,10 @@ const WalletServiceDetails = () => {
               </div>
               <h2>PCI DSS Certified Wallet with TLS 1.2 Security</h2>
               <p>
-                Each wallet user is automatically assigned a unique QR code,
-                enabling quick and secure transfers by scanning the recipient’s
-                code for seamless transactions.
+                The Mobile App and Wallet System are PCI DSS Level 1 compliant,
+                ensuring top-tier payment security. They leverage TLS 1.2
+                encryption and validated security certificates to protect user
+                data and transactions.
               </p>
 
               <div>
@@ -406,7 +413,7 @@ const WalletServiceDetails = () => {
 
               <div className="w-100 h-100">
                 <img
-                  src="/assets/images/media/img_35.jpg"
+                  src="/assets/images/media/white-label-three.png"
                   alt="App Preview"
                   className="w-100 h-100 object-fit-cover rounded-4"
                 />
