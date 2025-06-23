@@ -2,7 +2,6 @@ import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
 import BreadcrumbOne from "../components/breadcrumb/breadcrumb-one";
-import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import BoardingServiceDetails from "../components/services/boarding-service-details";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";

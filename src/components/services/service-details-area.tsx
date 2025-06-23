@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
 import VerticalCard from "../cards/verticalCard";
-import useSticky from "../../hooks/use-sticky";
 
 // ServiceNav
 function ServiceNav({
@@ -15,8 +14,6 @@ function ServiceNav({
 }) {
   const navigate = useNavigate();
   const location = useLocation();
-
-  const { sticky } = useSticky();
 
   const handleNavLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();

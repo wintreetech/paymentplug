@@ -36,13 +36,7 @@ const ContactArea = () => {
 										subtitle="124 City Road London <br/> United Kingdom EC1V 2NX"
 									/>
 								</div>
-								<div className="col-md-4">
-									<AddressBlock
-										icon="/assets/images/icon/icon_91.svg"
-										title="Contact Info"
-										subtitle='Open a chat or give us call at <br/><a href="tel:310.841.5500" className="call text-lg fw-500">310.841.5500</a>'
-									/>
-								</div>
+
 								<div className="col-md-4">
 									<AddressBlock
 										icon="/assets/images/icon/icon_92.svg"

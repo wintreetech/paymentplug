@@ -1,7 +1,6 @@
 import Wrapper from "../layout/wrapper";
 import SEOCom from "../components/seo";
 import HeaderTwo from "../layout/header/header-two";
-import FancyBannerThree from "../components/fancy-banner/fancy-banner-three";
 import WhiteLabelProjectDetails from "../components/project-details/whiteLabel-details-area.";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
