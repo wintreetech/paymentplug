@@ -33,11 +33,11 @@ const BlockFeatureSeven = () => {
         <div className="position-relative">
           <div className="row">
             <div className="col-xl-11 wow fadeInLeft">
-              <div className="title-one pe-xxl-5 mb-50 lg-mb-30">
-                <h2>
-                  We are here to help you connect, manage & scale your payment
-                  operations.
-                </h2>
+              <div
+                className="title-one pe-xxl-5 mb-50 lg-mb-30"
+                style={{ textTransform: "capitalize" }}
+              >
+                <h2>Connect, manage, and grow your payment operations.</h2>
               </div>
             </div>
           </div>

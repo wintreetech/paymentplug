@@ -53,12 +53,12 @@ function FaqProjectItem({ item }: { item: IProject }) {
                   className="media-wrapper ms-auto me-auto w-100 d-flex align-items-center justify-content-center position-relative"
                   style={{ backgroundImage: `url(${item.bg_img})` }}
                 >
-                  <a
+                  {/* <a
                     className="fancybox rounded-circle video-icon tran3s text-center d-flex align-items-center justify-content-center cursor-pointer"
                     onClick={() => setIsVideoOpen(true)}
                   >
                     <img src="/assets/images/icon/icon_29.svg" alt="arrow" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

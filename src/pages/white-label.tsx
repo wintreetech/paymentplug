@@ -9,56 +9,56 @@ import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
 import HomeFourBlogs from "../components/blogs/home-4-blogs";
 
 export default function WhiteLabel() {
-	return (
-		<Wrapper>
-			{/* seo title */}
-			<SEOCom title="White Label" />
-			{/* seo title */}
+  return (
+    <Wrapper>
+      {/* seo title */}
+      <SEOCom title="White Label" />
+      {/* seo title */}
 
-			<div className="main-page-wrapper">
-				{/* header start */}
-				<HeaderTwo />
-				{/* header end */}
-				<main>
-					{/* breadcrumb start */}
-					<div
-						className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 lg-pb-70 md-pb-30 position-relative"
-						style={{ backgroundImage: `url(/assets/images/media/img_26.jpg)` }}
-					>
-						<div className="container position-relative">
-							<div className="row align-items-center">
-								<div
-									className="col-lg-8 m-auto text-center"
-									style={{ width: "100%" }}
-								>
-									<div className="tag">White Label</div>
-									<h1 className="hero-heading no-bg text-white">
-										White-Label Payments and Merchant Management
-									</h1>
-								</div>
-							</div>
-						</div>
-					</div>
-					{/* breadcrumb end */}
+      <div className="main-page-wrapper">
+        {/* header start */}
+        <HeaderTwo />
+        {/* header end */}
+        <main>
+          {/* breadcrumb start */}
+          <div
+            className="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 lg-pb-70 md-pb-30 position-relative"
+            style={{ backgroundImage: `url(/assets/images/media/img_26.jpg)` }}
+          >
+            <div className="container position-relative">
+              <div className="row align-items-center">
+                <div
+                  className="col-lg-8 m-auto text-center"
+                  style={{ width: "100%" }}
+                >
+                  <div className="tag">White Label</div>
+                  <h1 className="hero-heading no-bg text-white">
+                    White-Label Payments and Merchant Management
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* breadcrumb end */}
 
-					{/* project details area start */}
-					<WhiteLabelProjectDetails />
-					{/* project details area end */}
+          {/* project details area start */}
+          <WhiteLabelProjectDetails />
+          {/* project details area end */}
 
-					{/* fancy banner two start */}
-					<FancyBannerTwo />
-					{/* fancy banner two end */}
+          {/* fancy banner two start */}
+          <FancyBannerTwo />
+          {/* fancy banner two end */}
 
-					{/* blog item start */}
-					<HomeFourBlogs />
-					{/* blog item end */}
-				</main>
+          {/* blog item start */}
+          <HomeFourBlogs />
+          {/* blog item end */}
+        </main>
 
-				<div className="footer-large-wrapper position-relative">
-					<NewsletterBannerTwo />
-					<FooterFour />
-				</div>
-			</div>
-		</Wrapper>
-	);
+        <div className="footer-large-wrapper position-relative">
+          <NewsletterBannerTwo />
+          <FooterFour />
+        </div>
+      </div>
+    </Wrapper>
+  );
 }

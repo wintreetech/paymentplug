@@ -6,6 +6,8 @@ import ContactArea from "../components/contact/contact-area";
 import HeaderFour from "../layout/header/header-four";
 import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
+import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
+import HomeFourBlogs from "../components/blogs/home-4-blogs";
 
 export default function ContactPage() {
 	return (
@@ -32,9 +34,9 @@ export default function ContactPage() {
 					<ContactArea />
 					{/* contact area end */}
 
-					{/* news letter start */}
-					<NewsletterBanner />
-					{/* news letter end */}
+					{/* blog item start */}
+					<HomeFourBlogs />
+					{/* blog item end */}
 				</main>
 
 				{/* footer area start */}
