@@ -55,7 +55,7 @@ export default function HomePageFour() {
           {/* project faq area end */}
 
           {/* fancy banner start */}
-          <FancyBannerSeven />
+          {/* <FancyBannerSeven /> */}
           {/* fancy banner end */}
 
           {/* text feature eight start */}
