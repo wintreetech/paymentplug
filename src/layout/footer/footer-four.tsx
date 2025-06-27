@@ -63,13 +63,24 @@ const FooterFour = () => {
 							<h5 className="footer-title">Company</h5>
 							<ul className="footer-nav-link style-none">
 								<li>
-									<NavLink to="/about-us">About us</NavLink>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Blog
+									</a>
 								</li>
 								<li>
-									<NavLink to="/blogs">Blogs</NavLink>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										About
+									</a>
 								</li>
 								<li>
-									<NavLink to="/contact">Contact</NavLink>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Contact
+									</a>
+								</li>
+								<li>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Docs
+									</a>
 								</li>
 							</ul>
 						</div>
@@ -77,16 +88,24 @@ const FooterFour = () => {
 							<h5 className="footer-title">Support</h5>
 							<ul className="footer-nav-link style-none">
 								<li>
-									<a href="#">Cookie Policy</a>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Cookie policy
+									</a>
 								</li>
 								<li>
-									<a href="#">Privacy Policy</a>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Privacy policy
+									</a>
 								</li>
 								<li>
-									<a href="#">Terms of Use</a>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Terms of service
+									</a>
 								</li>
 								<li>
-									<a href="#">Subprocessors</a>
+									<a href="#" target="_blank" rel="noopener noreferrer">
+										Subprocessors
+									</a>
 								</li>
 							</ul>
 						</div>

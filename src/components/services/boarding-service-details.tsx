@@ -112,6 +112,8 @@ const BoardingServiceDetails = () => {
 
 							<div className="divider" />
 
+							<div className="divider" />
+
 							{/* Configurable Monitoring Rules start */}
 							<div
 								className="heading"
@@ -204,31 +206,15 @@ const BoardingServiceDetails = () => {
 								perfect for Payment Facilitator models to speed up processing.
 							</p>
 
-							<div className="line-wrapper pb-30 mt-60 lg-mt-40 mb-70 lg-mb-40">
-								<div className="row">
-									<div className="col-md-4 wow fadeInUp">
-										<CardItem
-											icon="/assets/images/icon/icon_134.svg"
-											title="Quick Onboarding"
-											subtitle="Provides a Speed Option for fast onboarding of small merchants with minimal input."
-										/>
-									</div>
-									<div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-										<CardItem
-											icon="/assets/images/icon/icon_135.svg"
-											title="Fast Processing Start"
-											subtitle="Allows merchants to begin processing payments quickly with minimal setup and effort."
-										/>
-									</div>
-									<div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-										<CardItem
-											icon="/assets/images/icon/icon_136.svg"
-											title="Payment Facilitator Friendly"
-											subtitle="Especially useful for Payment Facilitator models to simplify and speed up onboarding."
-										/>
-									</div>
-								</div>
+							<div className="w-100 h-100">
+								<img
+									src="/assets/images/media/white-label-three.png"
+									alt="App Preview"
+									className="w-100 h-100 object-fit-cover rounded-4"
+								/>
 							</div>
+
+							<div className="divider" />
 
 							<div className="w-100 h-100">
 								<img
