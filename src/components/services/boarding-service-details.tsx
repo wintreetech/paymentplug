@@ -104,7 +104,7 @@ const BoardingServiceDetails = () => {
 
 							<div className="w-100 h-100">
 								<img
-									src="/assets/images/media/white-label-three.png"
+									src="/assets/images/media/bm-one.png"
 									alt="App Preview"
 									className="w-100 h-100 object-fit-cover rounded-4"
 								/>
@@ -218,7 +218,7 @@ const BoardingServiceDetails = () => {
 
 							<div className="w-100 h-100">
 								<img
-									src="/assets/images/media/white-label-three.png"
+									src="/assets/images/media/bm-two.png"
 									alt="App Preview"
 									className="w-100 h-100 object-fit-cover rounded-4"
 								/>
