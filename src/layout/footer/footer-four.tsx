@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 // internal
 import FooterSocial from "./footer-social";
 
@@ -68,17 +68,17 @@ const FooterFour = () => {
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
-										About
-									</a>
+									<Link to="/about">About us</Link>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
-										Contact
-									</a>
+									<Link to="/contact">Contact</Link>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
+									<a
+										href="https://docs.paymentplug.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										Docs
 									</a>
 								</li>
@@ -88,22 +88,38 @@ const FooterFour = () => {
 							<h5 className="footer-title">Support</h5>
 							<ul className="footer-nav-link style-none">
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
+									<a
+										href="https://docs.paymentplug.com/legal/pplug/cookie-policy.php"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										Cookie policy
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
+									<a
+										href="https://docs.paymentplug.com/legal/pplug/privacy-policy.php"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										Privacy policy
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
+									<a
+										href="https://docs.paymentplug.com/legal/pplug/terms-of-use.php"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										Terms of service
 									</a>
 								</li>
 								<li>
-									<a href="#" target="_blank" rel="noopener noreferrer">
+									<a
+										href="https://docs.paymentplug.com/legal/pplug/subprocessors.php"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
 										Subprocessors
 									</a>
 								</li>

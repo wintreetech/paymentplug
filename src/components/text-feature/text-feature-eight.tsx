@@ -65,9 +65,14 @@ const TextFeatureEight = ({ style_2 = false }: { style_2?: boolean }) => {
 											<FaqItem key={i} {...faq} parent="accordionOne" />
 										))}
 									</div>
-									<NavLink to="/docs" className="btn-thirteen tran3 flex-fill">
+
+									<a
+										target="_blank"
+										href="https://docs.paymentplug.com/"
+										className="btn-thirteen tran3 flex-fill"
+									>
 										View Integration Docs
-									</NavLink>
+									</a>
 								</div>
 							</div>
 							<div className="col-lg-6 col-md-8 m-auto wow fadeInRight">

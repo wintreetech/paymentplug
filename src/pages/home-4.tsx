@@ -16,6 +16,7 @@ import FaqSectionTwo from "../components/faq/faq-section-two";
 import BlockFeatureFifteen from "../components/block-feature/block-feature-fifteen";
 import FaqSectionOne from "../components/faq/faq-section-one";
 import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";
+import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
 
 export default function HomePageFour() {
 	return (
@@ -54,7 +55,7 @@ export default function HomePageFour() {
 					{/* project faq area end */}
 
 					{/* fancy banner start */}
-					{/* <FancyBannerSeven /> */}
+					<FancyBannerSeven />
 					{/* fancy banner end */}
 
 					{/* text feature eight start */}
