@@ -117,19 +117,19 @@ const WhiteLabelProjectDetails = () => {
           <div className="row">
             <div className="col-sm-8">
               <img
-                src="/assets/images/gallery/img_17.jpg"
+                src="/assets/images/media/wl-one.png"
                 alt="gallery_img"
                 className="lazy-img"
               />
             </div>
             <div className="col-sm-4">
               <img
-                src="/assets/images/gallery/img_18.jpg"
+                src="/assets/images/media/wl-two.png"
                 alt="gallery_img"
                 className="lazy-img"
               />
               <img
-                src="/assets/images/gallery/img_19.jpg"
+                src="/assets/images/media/wl-three.png"
                 alt="gallery_img"
                 className="lazy-img"
               />
@@ -194,7 +194,7 @@ const WhiteLabelProjectDetails = () => {
                 <div
                   className="media-wrapper w-100 position-relative"
                   style={{
-                    backgroundImage: `url(/assets/images/media/img_36.jpg)`,
+                    backgroundImage: `url(/assets/images/media/wl-four.webp)`,
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center",
                   }}

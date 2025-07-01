@@ -13,7 +13,6 @@ import NewsletterBannerTwo from "../components/newsletter/newsletter-banner-2";
 import FooterFour from "../layout/footer/footer-four";
 import BlockFeatureSeven from "../components/block-feature/block-feature-seven";
 import FaqSectionTwo from "../components/faq/faq-section-two";
-import FancyBannerSeven from "../components/fancy-banner/fancy-banner-seven";
 import BlockFeatureFifteen from "../components/block-feature/block-feature-fifteen";
 import FaqSectionOne from "../components/faq/faq-section-one";
 import FancyBannerTwo from "../components/fancy-banner/fancy-banner-two";

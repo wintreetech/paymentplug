@@ -154,7 +154,7 @@ const InvoizrServiceDetails = () => {
 
               <div className="w-100 h-100">
                 <img
-                  src="/assets/images/media/invoizr-one.png"
+                  src="/assets/images/media/invoizr-two.png"
                   alt="App Preview"
                   className="w-100 h-100 object-fit-cover rounded-4"
                 />

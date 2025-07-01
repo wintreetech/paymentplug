@@ -583,7 +583,7 @@
 // Fancy Banner Seven
 .fancy-banner-seven {
   .bg-wrapper {
-    background: url(/assets/images/media/img_50.jpg) no-repeat center;
+    background: url(/assets/images/media/wl-six.webp) no-repeat center;
     background-size: cover;
     &:before {
       content: "";
@@ -791,7 +791,8 @@
     font-size: 85px;
     line-height: 1.023em;
     z-index: 1;
-    padding: 10px 10px 23px 22px;
+    padding: 20px;
+    // padding: 10px 10px 23px 22px;
     img {
       position: absolute;
       left: 0;

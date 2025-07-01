@@ -21,6 +21,11 @@ function AddressBlock({
 	);
 }
 
+const handleChatClick = () => {
+	// Open the live chat link in a new tab
+	alert("Live chat service is currently unavailable.");
+};
+
 const ContactArea = () => {
 	return (
 		<div className="contact-us-section pt-150 lg-pt-80">
@@ -28,7 +33,7 @@ const ContactArea = () => {
 				<div className="position-relative">
 					<div className="row">
 						<div className="col-12 m-auto">
-							<div className="row">
+							<div className="row" style={{ justifyContent: "space-around" }}>
 								<div className="col-md-4">
 									<AddressBlock
 										icon="/assets/images/icon/icon_90.svg"
@@ -37,11 +42,11 @@ const ContactArea = () => {
 									/>
 								</div>
 
-								<div className="col-md-4">
+								<div className="col-md-4" onClick={handleChatClick}>
 									<AddressBlock
 										icon="/assets/images/icon/icon_92.svg"
 										title="Live Support"
-										subtitle='live chat service <br/><a href="#" className="webaddress">www.babunlivechat.com</a>'
+										subtitle='<a href="#" className="webaddress">Start Chat with <br> Support Team</a>'
 									/>
 								</div>
 							</div>
