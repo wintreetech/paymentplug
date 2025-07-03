@@ -18,6 +18,37 @@ const TextFeatureSix = () => {
               <NavLink to="/contact" className="btn-thirteen tran3s me-5">
                 Contact Sales
               </NavLink>
+
+              <div
+                className="media-wrapper"
+                style={{
+                  height: "50%",
+                }}
+              >
+                <div className="circle-wrapper">
+                  <div className="outer-circle">
+                    <img src="./assets/images/assets/ic.png" alt="earth" />
+                    <div className="inner-circle">
+                      <img
+                        className="center-icon"
+                        src="./assets/images/assets/pp-logo.png"
+                        alt="earth"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* <img
+              src="/assets/images/assets/hand.png"
+              alt="hand-img"
+              className="lazy-img w-100"
+            /> */}
+                {/* <img
+              src="/assets/images/assets/screen_14.png"
+              alt="screen-img"
+              className="lazy-img shapes screen_01"
+            /> */}
+              </div>
             </div>
             <div className="col-lg-4 ms-auto">
               <div className="ps-xl-5 ms-xxl-2 md-mt-60">
@@ -47,18 +78,8 @@ const TextFeatureSix = () => {
               </div>
             </div>
           </div>
-          <div className="media-wrapper">
-            <img
-              src="/assets/images/assets/hand.png"
-              alt="hand-img"
-              className="lazy-img w-100"
-            />
-            <img
-              src="/assets/images/assets/screen_14.png"
-              alt="screen-img"
-              className="lazy-img shapes screen_01"
-            />
-          </div>
+
+          {/* star */}
           {/* <img
             src="/assets/images/shape/shape_15.png"
             alt="shape"

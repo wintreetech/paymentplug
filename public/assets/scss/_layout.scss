@@ -775,6 +775,50 @@
     right: 39%;
   }
 }
+
+// home-spinner
+.circle-wrapper {
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .outer-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    & img {
+      width: 100%;
+      animation: spin 50s linear infinite;
+    }
+
+    .inner-circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+
+      .center-icon {
+        animation: none;
+        width: 25%;
+        // margin: 0 auto;
+      }
+    }
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 // Text Feature Seven
 .text-feature-seven {
   ul li {
