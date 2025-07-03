@@ -121,11 +121,11 @@ const TextFeatureOne = ({ style_2 = false }: { style_2?: boolean }) => {
                   />
                 </div>
               </div>
-              <img
+              {/* <img
                 src="/assets/images/shape/shape_05.svg"
                 alt="shape"
                 className="lazy-img shapes shape_01"
-              />
+              /> */}
             </div>
 
             <div className="counter-wrapper mt-80 lg-mt-20">

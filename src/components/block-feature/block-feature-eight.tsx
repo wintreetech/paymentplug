@@ -41,11 +41,11 @@ const BlockFeatureEight = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/assets/images/shape/shape_16.svg"
         alt="shape"
         className="lazy-img shapes shape_01"
-      />
+      /> */}
     </div>
   );
 };

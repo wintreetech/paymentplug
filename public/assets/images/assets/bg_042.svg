@@ -1,0 +1,39 @@
+<svg width="1600" height="1095" viewBox="0 0 1600 1095" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <rect width="1600" height="1095" fill="#0F3C32"/>
+  <mask id="mask0_138_71" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1600" height="1095">
+    <rect width="1600" height="1095" fill="#0F3C32"/>
+  </mask>
+  <g mask="url(#mask0_138_71)">
+    <g filter="url(#filter0_f_138_71)">
+      <ellipse cx="819.49" cy="863.336" rx="819.49" ry="863.336" transform="matrix(0.961813 -0.273709 0.244628 0.969617 -445 1020.6)" fill="url(#paint0_linear_138_71)" fill-opacity="0.8"/>
+    </g>
+    <g style="mix-blend-mode:overlay" opacity="0.3">
+      <rect width="1600" height="1184.55" fill="url(#pattern0)"/>
+    </g>
+  </g>
+  <mask id="mask1_138_71" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="413" y="804" width="109" height="108">
+    <rect x="413.002" y="804" width="108" height="108" fill="url(#pattern1)"/>
+  </mask>
+  <g mask="url(#mask1_138_71)">
+    <rect x="417.678" y="814.286" width="94.4416" height="89.7663" fill="#30e3ca"/>
+  </g>
+
+  <defs>
+    <filter id="filter0_f_138_71" x="-761.811" y="266.557" width="2632.4" height="2733.7" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_138_71"/>
+    </filter>
+    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="0.08375" height="0.113123">
+      <use xlink:href="#image0_138_71" transform="scale(0.000380682 0.000514197)"/>
+    </pattern>
+    <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+      <use xlink:href="#image1_138_71" transform="scale(0.000244141)"/>
+    </pattern>
+    <linearGradient id="paint0_linear_138_71" x1="819.49" y1="0" x2="819.49" y2="801.971" gradientUnits="userSpaceOnUse">
+  <stop stop-color="#30e3ca" stop-opacity="0"/>
+  <stop offset="1" stop-color="#7cffa8"/>
+</linearGradient>
+
+</defs>
+</svg>

@@ -5,34 +5,71 @@ $magnita: "Magnita";
 $bootstrapFont: "bootstrap-icons";
 
 // Color Settings
-$text-color: rgba(0, 0, 0, 0.7);
-$text-dark: #000;
-$heading: #19352d;
+// $text-color: rgba(0, 0, 0, 0.7);
+// $text-dark: #000;
+// $heading: #19352d;
+// $description: #555;
+// // $heading: #30e3ca;
+// $color-one: #cfff45;
+// // $color-one: #7cffa8;
+// $color-two: #29594b;
+// $color-three: #0c3a30;
+// $color-four: #e6fd5a;
+// $color-five: #0e3e2f;
+// $color-six: #dfff5e;
+// $color-seven: #044f3b;
+// $color-eight: #1f5e59;
+// $color-nine: #d0ff45;
+// $light-bg-one: #ebf3ee;
+// $light-bg-two: #edf1ee;
+// $cyan: #dceff0;
+// $link: #0a4020;
+// $light-yellow: #ffe86b;
+
+// ===========New colors============
+
+// $text-color: rgba(0, 0, 0, 0.7);
+$text-color: #333333;
+$text-dark: #1a1a1a;
+// $heading: #19352d;
 $description: #555;
 // $heading: #30e3ca;
-$color-one: #cfff45;
+// $color-one: #cfff45; in use
 // $color-one: #7cffa8;
-$color-two: #29594b;
-$color-three: #0c3a30;
-$color-four: #e6fd5a;
-$color-five: #0e3e2f;
+// $color-two: #29594b;
+// $color-three: #0c3a30;
+$color-four: #30e3ca;
+// $color-five: #0e3e2f;
 $color-six: #dfff5e;
 $color-seven: #044f3b;
 $color-eight: #1f5e59;
-$color-nine: #d0ff45;
+// $color-nine: #d0ff45;
 $light-bg-one: #ebf3ee;
 $light-bg-two: #edf1ee;
 $cyan: #dceff0;
-$link: #0a4020;
+// $link: #0a4020;
 $light-yellow: #ffe86b;
 
 // =================== new color theme ===================
 // Colors
 $primary-color: #30e3ca;
+$color-one: #30e3ca;
+$color-nine: #30e3ca;
+$color-two: #30e3ca;
+
 $secondary-color: #7cffa8;
+$link: #7cffa8;
+$color-five: #7cffa8;
+
+$color-three: #10b981;
 $accent-color: #10b981;
 $background-color: #ffffff;
+$label-color: #1ca161;
 
 // text
 $text-color-heading: #1a1a1a;
 $text-color-description: #333333;
+
+// correct pallet
+$color-four: #30e3ca;
+$heading: #7cffa8;

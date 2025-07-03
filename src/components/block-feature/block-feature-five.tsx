@@ -61,11 +61,11 @@ const BlockFeatureFive = () => {
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src="/assets/images/shape/shape_06.svg"
         alt="shape"
         className="lazy-img shapes shape_01"
-      />
+      /> */}
     </div>
   );
 };

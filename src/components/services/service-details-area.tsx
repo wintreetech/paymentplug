@@ -168,7 +168,7 @@ const ServiceDetailsArea = () => {
 
               <div className="divider" />
 
-              <div className="light-bg-deep quote-wrapper position-relative mb-60 lg-mb-40">
+              {/* <div className="light-bg-deep quote-wrapper position-relative mb-60 lg-mb-40">
                 <div className="d-xl-flex align-items-start">
                   <img
                     src="/assets/images/icon/icon_84.svg"
@@ -189,9 +189,9 @@ const ServiceDetailsArea = () => {
                   alt="ils_icon"
                   className="lazy-img shapes shape_01"
                 />
-              </div>
+              </div> */}
 
-              <div className="divider" />
+              {/* <div className="divider" /> */}
 
               {/* Monitoring Graphs */}
               <div

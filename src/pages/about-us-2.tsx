@@ -13,64 +13,64 @@ import HomeBlogs from "../components/blogs/home-blogs";
 import FooterTwo from "../layout/footer/footer-two";
 
 export default function AboutUsTwoPage() {
-	return (
-		<Wrapper>
-			{/* seo title */}
-			<SEOCom title="About us 2" />
-			{/* seo title */}
+  return (
+    <Wrapper>
+      {/* seo title */}
+      <SEOCom title="About us 2" />
+      {/* seo title */}
 
-			<div className="main-page-wrapper">
-				{/* header start */}
-				<HeaderOne />
-				{/* header end */}
-				<main>
-					{/* breadcrumb start */}
-					<BreadcrumbTwo
-						title="We're Award Winner Finance inc"
-						subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
-						page="About us"
-						style_4={true}
-						col="col-xl-8 col-lg-9 m-auto"
-					/>
-					{/* breadcrumb end */}
+      <div className="main-page-wrapper">
+        {/* header start */}
+        <HeaderOne />
+        {/* header end */}
+        <main>
+          {/* breadcrumb start */}
+          <BreadcrumbTwo
+            title="We're Award Winner Finance inc"
+            subtitle="Navigating Your Financial Growth With Experience & Insightful Solutions."
+            page="About us"
+            style_4={true}
+            col="col-xl-8 col-lg-9 m-auto"
+          />
+          {/* breadcrumb end */}
 
-					{/* text feature three area start */}
-					<TextFeatureThree cls="text-feature-seven mt-160 lg-mt-80 pb-200 lg-pb-120" />
-					{/* text feature three area end */}
+          {/* text feature three area start */}
+          <TextFeatureThree cls="text-feature-seven mt-160 lg-mt-80 pb-200 lg-pb-120" />
+          {/* text feature three area end */}
 
-					{/* text feature three area start */}
-					<TextFeatureTwo />
-					{/* text feature three area end */}
+          {/* text feature three area start */}
+          <TextFeatureTwo />
+          {/* text feature three area end */}
 
-					{/* block feature four start */}
-					<BlockFeatureFour />
-					{/* block feature four end */}
+          {/* block feature four start */}
+          <BlockFeatureFour />
+          {/* block feature four end */}
 
-					{/* feedback section four start */}
-					<FeedbackFour spacing="0" />
-					{/* feedback section four end */}
+          {/* feedback section four start */}
+          <FeedbackFour spacing="0" />
+          {/* feedback section four end */}
 
-					{/* fancy banner five start */}
-					<FancyBannerFive />
-					{/* fancy banner five end */}
+          {/* fancy banner five start */}
+          <FancyBannerFive />
+          {/* fancy banner five end */}
 
-					{/* faq section start */}
-					<FaqSectionOne />
-					{/* faq section end */}
+          {/* faq section start */}
+          <FaqSectionOne />
+          {/* faq section end */}
 
-					{/* blogs start */}
-					<HomeBlogs cls="mt-150 lg-mt-80 pb-150 lg-pb-80" />
-					{/* blogs end */}
+          {/* blogs start */}
+          <HomeBlogs cls="mt-150 lg-mt-80 pb-150 lg-pb-80" />
+          {/* blogs end */}
 
-					{/* fancy banner three start */}
-					<FancyBannerThree />
-					{/* fancy banner three end */}
-				</main>
+          {/* fancy banner three start */}
+          <FancyBannerThree />
+          {/* fancy banner three end */}
+        </main>
 
-				{/* footer start */}
-				<FooterTwo />
-				{/* footer end */}
-			</div>
-		</Wrapper>
-	);
+        {/* footer start */}
+        <FooterTwo />
+        {/* footer end */}
+      </div>
+    </Wrapper>
+  );
 }

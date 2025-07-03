@@ -59,7 +59,7 @@ const TextFeatureSix = () => {
               className="lazy-img shapes screen_01"
             />
           </div>
-          <img
+          {/* <img
             src="/assets/images/shape/shape_15.png"
             alt="shape"
             className="lazy-img shapes shape_01"
@@ -68,7 +68,7 @@ const TextFeatureSix = () => {
             src="/assets/images/shape/shape_16.svg"
             alt="shape"
             className="lazy-img shapes shape_02"
-          />
+          /> */}
         </div>
       </div>
     </div>
