@@ -45,17 +45,17 @@ const HeroBannerFour = () => {
         </div>
       </div>
       <div className="media-wrapper wow fadeInUp">
-        <img
+        {/* <img
           src="/assets/images/assets/screen_13.png"
           alt="screen"
           className="lazy-img w-100"
-        />
+        /> */}
       </div>
-      <img
+      {/* <img
         src="/assets/images/shape/shape_14.svg"
         alt="shape"
         className="lazy-img shapes shape_01"
-      />
+      /> */}
       <img
         src="/assets/images/assets/screen_21.svg"
         alt="screen"
